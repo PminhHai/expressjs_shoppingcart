@@ -1,0 +1,24 @@
+{
+  "name": "crudapp",
+  "version": "1.0.0",
+  "description": "Node.js Restful CRUD API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "pmh",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "mongoose-slug-updater": "^3.3.0",
+    "socket.io": "^4.7.3",
+    "socket.io-client": "^4.7.3"
+  }
+}
